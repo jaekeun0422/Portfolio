@@ -47,7 +47,7 @@ export default function ProjectItem({data}){
                 <a href={github}>Github 바로가기</a>
                 <a href={youtube}>Youtube 보러가기</a>
                 <p className="my-1 ">
-                    기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
+                   개발 기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
                 </p>
                 <div className="flex items-start mt-2">
                     {tags.map((aTag) => (

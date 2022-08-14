@@ -21,7 +21,9 @@ export default function Header() {
         <Link href="/projects">
           <a className="mr-5 hover:text-gray-900">프로젝트</a>
         </Link>
-        <a className="mr-5 hover:text-gray-900">기술스택</a>
+        <Link href="/techs">
+          <a className="mr-5 hover:text-gray-900">기술스택</a>
+        </Link>  
         <a href="https://open.kakao.com/o/saJujlve"className="mr-5 hover:text-gray-900">카카오 채팅</a>
       </nav>
       {/* dark mode implementation */}
