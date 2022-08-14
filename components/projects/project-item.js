@@ -6,7 +6,7 @@ export default function ProjectItem({data}){
     const github = data.properties.Github.url
     const youtube = data.properties.Youtube.url
     const description = data.properties.description.rich_text[0].plain_text
-    const imgSrc = data.cover.file?.url || data.cover.external.url
+    const imgSrc = data.cover.file.url
     const tags = data.properties.tags.multi_select
     const start = data.properties.workPeriod.date.start
     const end = data.properties.workPeriod.date.end
