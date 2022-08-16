@@ -1,7 +1,11 @@
 import Layout from "../components/layout";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Techs () {
+
+  const myStack = '/languages.jpg';
+
   return(
     <Layout>
       <Head>
@@ -9,7 +13,18 @@ export default function Techs () {
         <meta name="description" content="My Technical Stack" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>techs here</h1>
+      <div>
+        <Image
+          //className="rounded-t-xl"
+          src={myStack}
+          alt="My Technical Stack"
+          width="270%"
+          height="150%"
+          layout="responsive"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
     </Layout>
   );
 }

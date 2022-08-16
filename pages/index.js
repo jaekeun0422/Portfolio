@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>나의 포트폴리오</title>
         <meta name="description" content="My Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/hamburger.ico" />
       </Head>
       <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
