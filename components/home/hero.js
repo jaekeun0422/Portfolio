@@ -13,7 +13,7 @@ export default function Hero(){
           코딩하는 이재근
         </h2>
         <p className="mb-8 leading-relaxed">
-        Fortran을 시작하여 React/Next까지 ... [Front-end] HTML/CSS/JavaScript/Vue/React/Android/Object-C ... [Back-end] Java/Java Servlet/Java Spring Boot/Node/PHP ... [기타] C/Python/R ... [개발 툴] Eclipse/Intellij/Visual Studio Code/Pycham ...
+        Fortran을 시작하여 React/Next까지 ... [Front-end] HTML CSS JavaScript JQuery Vue React Android Object-C ... [Back-end] Java JavaServlet JSP SpringBoot Node PHP ... [기타] C Python R ... [개발 툴] Eclipse Intellij VisualStudioCode Github Notion ...
         </p>
         <p className="mb-8 leading-relaxed">나의 포트폴리오를 Next로 만들었다</p>
         <div className="flex justify-center">
