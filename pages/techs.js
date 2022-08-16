@@ -11,7 +11,7 @@ export default function Techs () {
       <Head>
         <title>나의 포트폴리오</title>
         <meta name="description" content="My Technical Stack" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/hamburger.ico" />
       </Head>
       <div>
         <Image

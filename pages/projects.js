@@ -13,7 +13,7 @@ export default function Projects ({projects}) {
       <Head>
         <title>나의 포트폴리오</title>
         <meta name="description" content="My Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/hamburger.ico" />
       </Head>
       <h1 className="text-5xl font-bold sm:text-6xl"> 
         <span className="pl-4 text-blue-500">총 프로젝트 ({projects.results.length})</span>

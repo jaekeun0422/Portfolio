@@ -1,11 +1,13 @@
 import Image from "next/image";
 
-export default function ProjectItem({data}){
+export default function ProjectItem({data}, {key}){
 
     const title = data.properties.name.title[0].plain_text
     const github = data.properties.Github.url
     const youtube = data.properties.Youtube.url
     const description = data.properties.description.rich_text[0].plain_text
+    //if (key == "7be8599e-ede9-450e-97e5-3f0670a19b76")
+    //    imgSrc = "/venezia.jpg"
     const imgSrc = data.cover.file.url
     const tags = data.properties.tags.multi_select
     const start = data.properties.workPeriod.date.start
@@ -32,6 +34,7 @@ export default function ProjectItem({data}){
         <div className="project-card">
             <Image
                 className="rounded-t-xl"
+                //src="/venezia.jpg"
                 src={imgSrc}
                 alt="cover image"
                 width="100%"
